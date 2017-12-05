@@ -21,14 +21,14 @@ IsValid('mo9ncXisMeAoXwqcV5EWuyncbmCcQN4rVs', TestNet);
 
 ## API
 
-### `isValid(addr, version)`
+### `IsValid(addr, version)`
 
 - `addr`: A bitcoin address
 - `version`: The version to test against, defaults to `MAINNET`
 
 Returns a boolean indicating if the address is valid or not.
 
-### `typeOf(addr)`
+### `TypeOf(addr)`
 
 - `addr`: A bitcoin address
 

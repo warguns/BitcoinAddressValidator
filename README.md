@@ -10,13 +10,13 @@ Quick start:
 
 ```golang
 // This will return false, indicating invalid address.
-IsValid('blah');
+IsValid("blah");
 
 // This is a valid address and will thus return true.
-IsValid('1AGNa15ZQXAZUgFiqJ2i7Z2DPU2J6hW62i');
+IsValid("1AGNa15ZQXAZUgFiqJ2i7Z2DPU2J6hW62i");
 
-// This is a Testnet address, it's valid and the function will return true.
-IsValid('mo9ncXisMeAoXwqcV5EWuyncbmCcQN4rVs', TestNet);
+// This is a Testnet address, it"s valid and the function will return true.
+IsValid("mo9ncXisMeAoXwqcV5EWuyncbmCcQN4rVs", TestNet);
 ```
 
 ## API
@@ -32,7 +32,7 @@ Returns a boolean indicating if the address is valid or not.
 
 - `addr`: A bitcoin address
 
-Returns a boolean if it's a well-formed address and a string with the type of the address.
+Returns a boolean if it"s a well-formed address and a string with the type of the address.
 
 ## Constants
 
